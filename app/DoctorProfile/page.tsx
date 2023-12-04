@@ -1,9 +1,9 @@
-import WelcomeDoctor from './body';
+import DoctorProfile from './body';
 
 export default function Page() {
     return (
         <main>
-            <WelcomeDoctor />
+            <DoctorProfile/>
         </main>
     );
 }

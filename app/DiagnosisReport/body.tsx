@@ -3,9 +3,9 @@ import * as React from 'react'
 export default function DiagnosisReport() {
     return (
         <main className="flex flex-col items-center justify-center">
-            <h1 className="text-3xl font-bold border-b-4 border-blue-500 mt-20 mb-5">Diagnosis Reports
+            <h1 className="text-3xl font-bold border-b-4 border-blue-500 mt-28 mb-5">Diagnosis Reports
             </h1>
-            <div className="overflow-auto rounded-lg shadow mb-20">
+            <div className="overflow-auto rounded-lg shadow mb-10">
                 <table className="w-auto border">
                     <thead className="bg-blue-200 border-b-2 border-blue-300">
                         <tr className="border border-solid border-l-0 border-r-0">
@@ -33,7 +33,7 @@ export default function DiagnosisReport() {
                     </tbody>
                 </table>
             </div>
-            <div className="flex mt-4">
+            <div className="flex mt-0">
                 <button className="bg-blue-500 text-white px-4 py-2 mr-10 rounded">
                     Back to Previous Page
                 </button>
